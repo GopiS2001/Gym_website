@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+build
+*.tsbuildinfo
+next-env.d.ts
+.env*
+!.env.example
+.vercel
+# Original high-res photos live outside the repo; optimized copies are in public/images
+Photos/
+.playwright-mcp/
