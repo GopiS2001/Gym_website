@@ -1,7 +1,6 @@
 # Real Warriors — Gym Website
 
 Next.js 16 (App Router) · TypeScript · Tailwind CSS 4 · React Three Fiber · GSAP · React Hook Form + Zod.
-Implementation follows `gym_3d_nextjs_implementation_plan.md`.
 
 ## Getting started
 
