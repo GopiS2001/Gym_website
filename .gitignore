@@ -10,3 +10,5 @@ next-env.d.ts
 # Original high-res photos live outside the repo; optimized copies are in public/images
 Photos/
 .playwright-mcp/
+# Private planning notes (kept locally only)
+gym_3d_nextjs_implementation_plan.md
