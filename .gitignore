@@ -12,3 +12,5 @@ Photos/
 .playwright-mcp/
 # Private planning notes (kept locally only)
 gym_3d_nextjs_implementation_plan.md
+
+.vercel
