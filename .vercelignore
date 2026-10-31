@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+build
+*.tsbuildinfo
+.env*
+!.env.example
+Photos
+.playwright-mcp
+gym_3d_nextjs_implementation_plan.md
