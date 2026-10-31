@@ -74,8 +74,11 @@ export function Header() {
           </button>
         </div>
       </Container>
-
-      <MobileMenu open={menuOpen} onClose={closeMenu} pathname={pathname} />
     </header>
+
+    {/* Rendered outside <header>: its backdrop-filter (when scrolled) would
+        otherwise become the containing block for this fixed overlay. */}
+    <MobileMenu open={menuOpen} onClose={closeMenu} pathname={pathname} />
+    </>
   );
 }
