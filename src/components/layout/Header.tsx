@@ -24,6 +24,7 @@ export function Header() {
   }, []);
 
   return (
+    <>
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-[background-color,border-color,backdrop-filter] duration-300 ${
         scrolled ? "border-b border-line/80 bg-ink/80 backdrop-blur-lg" : "border-b border-transparent"
